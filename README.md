@@ -3,7 +3,9 @@ NeuroDrAin is an end-to-end AI-based pipeline for evaluating CT scans following 
 
 Follow-up CT scans after minimally invasive surgery for ICH are commonly used to assess the volume of ICH and evaluate the drain tip position, classifying it as either "correct" or "incorrect." Manual volumetry is time-consuming, and the ABC/2 method is prone to inaccuracies.
 
-We developed a CNN-based model for segmenting ICH and drain structures ([segment_ich](https://github.com/s-elsheikh/segment_ich/)). A MATLAB script quantifies the coverage profile of ICH and drain segmentations. A machine learning algorithm then uses this coverage profile to classify the tip position as "correct" or "incorrect."
+We previously developed a CNN-based model for segmenting ICH and drain structures [Accuracy of automated segmentation and volumetry of acute intracerebral hemorrhage following minimally invasive surgery using a patch‑based convolutional neural network in a small dataset](https://rdcu.be/dyUGM) ([segment_ich](https://github.com/s-elsheikh/segment_ich/)). 
+
+We describe a MATLAB script, that quantifies the coverage profile of ICH and drain segmentations. As well as a machine learning algorithm then uses this coverage profile to classify the tip position as "correct" or "incorrect." (in review). 
 
 This repository includes all necessary files from the [segment_ich](https://github.com/s-elsheikh/segment_ich/) repository to run the complete pipeline.
 
