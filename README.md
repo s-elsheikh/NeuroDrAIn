@@ -34,7 +34,7 @@ matlab -nodisplay -nosplash -nodesktop -r "input1='/data/pred_drain_icb.nii.gz';
 ```
 #### Outputs
 Assuming input1='/data/pred_drain_icb.nii.gz' outputs are:
-1. predicted volume of ICB: '/data/pred_drain_icb_icb_volume.json'
+1. predicted volume of ICB: '/data/pred_drain_icb_volume_icb.json'
 2. Island properties of both true and false detected drains: '/data/pred_drain_icb_properties.json' columns are: island number, followed by the 3 dimensions of the objects in mm, followed by volume in cubic mm.
 3. Coverage profile for true detected drains: '/data/pred_drain_icb_profile_counter.json'. Counter is incremental numeric.
 4. Plot of the coverage profile: '/data/pred_drain_icb_plot_counter.jpeg'. Counter is incremental numeric.

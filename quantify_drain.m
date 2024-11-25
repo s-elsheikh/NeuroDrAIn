@@ -160,7 +160,7 @@ for i = 1:length(true_cov_islands)
 end
 
 % set output paths for volume and all island properties
-output_vol = fullfile(input_dir, strcat(base_name, '_icb_volume.json'));
+output_vol = fullfile(input_dir, strcat(base_name, '_volume_icb.json'));
 output_props = fullfile(input_dir, strcat(base_name, '_properties.json'));
 
 
