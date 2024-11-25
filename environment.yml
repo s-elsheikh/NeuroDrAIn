@@ -1,4 +1,4 @@
-name: segment_ich
+name: NeuroDrAIn
 channels:
   - conda-forge
   - defaults
@@ -195,4 +195,3 @@ dependencies:
     - werkzeug==3.0.1
     - wrapt==1.14.1
     - zipp==3.17.0
-prefix: C:\Users\elshikh\Miniconda3\envs\segment_ich
