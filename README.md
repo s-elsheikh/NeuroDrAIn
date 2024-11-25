@@ -31,11 +31,7 @@ python_segment.py
 
 ### quantify_drain.m
 1. expects the non-contrast CT in NIfTI format and the prediction file.
-2. produces
-  * `profile_xx.json`:A JSON file with proportional coverage between the drain and ICH along 1-mm increments for the first 60 mm from the drain tip.
-  * `plot_xx.jpeg`: A plot of these coverage values in JPEG format.
-(Here, `xx` are numeric counters for multiple drains in the same scan.)
-3. File names are supplied as command-line arguments to the MATLAB script.
+2. File names are supplied as command-line arguments to the MATLAB script.
 
 #### Usage
 
