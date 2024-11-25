@@ -5,7 +5,7 @@ Follow-up CT scans after minimally invasive surgery for ICH are commonly used to
 
 We previously developed a CNN-based model for segmenting ICH and drain structures [Accuracy of automated segmentation and volumetry of acute intracerebral hemorrhage following minimally invasive surgery using a patch‑based convolutional neural network in a small dataset](https://rdcu.be/dyUGM) ([segment_ich](https://github.com/s-elsheikh/segment_ich/)). 
 
-We describe a MATLAB script, that quantifies the coverage profile of ICH and drain segmentations. As well as a machine learning algorithm then uses this coverage profile to classify the tip position as "correct" or "incorrect." (in review). 
+We describe a MATLAB script, that quantifies the coverage profile of ICH and drain segmentations. As well as a machine learning algorithm then uses this coverage profile to classify the tip position as "correct" or "incorrect." (under review). 
 
 This repository includes all necessary files from the [segment_ich](https://github.com/s-elsheikh/segment_ich/) repository to run the complete pipeline.
 
