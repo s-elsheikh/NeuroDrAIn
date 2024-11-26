@@ -8,4 +8,4 @@ dependencies:
   - r-jsonlite
   - pip
   - pip:
-    - git+https://reisert@bitbucket.org/reisert/patchwork.git@ce7e63c
+    - git+https://reisert@bitbucket.org/reisert/patchwork.git
