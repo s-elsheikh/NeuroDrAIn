@@ -8,4 +8,5 @@ dependencies:
   - r-jsonlite
   - pip
   - pip:
+    - tensorflow=2.12
     - git+https://reisert@bitbucket.org/reisert/patchwork.git
