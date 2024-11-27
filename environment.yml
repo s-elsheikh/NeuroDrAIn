@@ -6,6 +6,7 @@ dependencies:
   - python=3.9
   - r-base
   - r-jsonlite
+  - git
   - pip
   - pip:
     - tensorflow==2.12

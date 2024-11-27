@@ -27,7 +27,7 @@ conda activate NeuroDrAIn
 #### Usage
 
 ```
-python_segment.py
+python3 python_segment.py
 ```
 ------------------------------------------------------------------------------------------------------------
 
@@ -43,6 +43,8 @@ python_segment.py
 
 
 #### Usage
+
+**Not tested**
 
 ```
 matlab -nodisplay -nosplash -nodesktop -r "input1='/data/pred_drain_icb.nii.gz'; input2='/data/s_002.nii'; quantify_drain.m; exit;"
