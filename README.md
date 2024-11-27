@@ -54,25 +54,29 @@ python3 segment.py
 **Not tested**
 
 ```
-matlab -nodisplay -nosplash -nodesktop -r "input1='/data/pred_drain_icb.nii.gz'; input2='/data/s_002.nii'; quantify_drain.m; exit;"
+matlab -nosplash -nodesktop -r "input1='/data/pred_drain_icb.nii.gz'; input2='/data/s_002.nii'; quantify_drain.m; exit;"
 ```
 #### Outputs
-Assuming input1='/data/pred_drain_icb.nii.gz' outputs are:
+Outputs are named depending on input1 file name. `.nii.gz`is stripped and the following suffixes are added just before the file extension. Assuming input1='/data/pred_drain_icb.nii.gz' outputs are:
 1. **Predicted ICH volume:**
 '/data/pred_drain_icb_volume_icb.json'
+  * Contains the volume of the ICH in cubic mm. 
 3. **Drain Properties:**
 '/data/pred_drain_icb_properties.json' 
   * Contains properties of detected drains (true and false positives), including the island number, dimensions (in mm), and volume (in cubic mm).
 5. **Coverage profile:**
 '/data/pred_drain_icb_profile_counter.json' (incremental numeric counters).
+  * Contains the percentage radial coverage (0-1) of the drain by the ICH at 1-mm steps from the tip of the drain. 
 6. **Coverage Profile Plot:**
 '/data/pred_drain_icb_plot_counter.jpeg' (incremental numeric counters).
+  * A plot of the above profile values. 
 
 ------------------------------------------------------------------------------------------------------------
 
 ### predict_position.R
 
-The R script expects a folder path containing all `profile_counter.json` files. It classifies each drain tip as "correct" or "incorrect" and outputs the results in a CSV file.
+The R script takes 1 argument: the path to a folder containing all `profile_counter.json` files. It classifies each drain tip as "correct" or "not correct" and outputs the results in a CSV file called `prediction_results.csv`.
+The script checks if the packages `c("caret", "stepPlr", "jsonlite")`are installed and attempts to install them if not found. 
 
 #### Usage
 
