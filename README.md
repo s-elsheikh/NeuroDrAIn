@@ -35,12 +35,12 @@ An R session including [caret](https://CRAN.R-project.org/package=caret), [jsonl
 #### Usage
 
 ```
-python3 python_segment.py
+python3 segment.py
 ```
 ------------------------------------------------------------------------------------------------------------
 
 ### quantify_drain.m
-1. expects the non-contrast CT in NIfTI format and the prediction file.
+1. expects the non-contrast CT in NIfTI format and the prediction file, produced by `segment.py`.
 2. File names are supplied as command-line arguments to the MATLAB script.
 
 #### Plot of sample data
