@@ -40,15 +40,14 @@ python3 segment.py
 ------------------------------------------------------------------------------------------------------------
 
 ### quantify_drain.m
-1. expects the non-contrast CT in NIfTI format and the prediction file, produced by `segment.py`.
+1. Expects:
+   * input1= the prediction file, produced by `segment.py`.
+   * input2= the non-contrast CT in NIfTI format. 
 2. File names are supplied as command-line arguments to the MATLAB script.
 
 #### Plot of sample data
 
 ![Sample data resulting from  `quantify_drain.m`, showing an example of a correct and of a not correct position](images/coverage_profile.png)
-
-
-
 
 #### Usage
 
