@@ -9,6 +9,15 @@ We describe a MATLAB script, that quantifies the coverage profile of ICH and dra
 
 This repository includes all necessary files from the [segment_ich](https://github.com/s-elsheikh/segment_ich/) repository to run the complete pipeline.
 
+## Cloning the Repository
+
+Make sure you have Git installed on your system. To get started, clone this repository and navigate to the cloned folder:
+
+```
+git clone https://github.com/s-elsheikh/NeuroDrAIn.git
+cd NeuroDrAIn
+```
+
 
 ## Environment Setup
 
