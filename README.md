@@ -23,7 +23,7 @@ This will install [Patchwork CNN Toolbox](https://bitbucket.org/reisert/patchwor
 
 A MATLAB installation including [Tools for NIfTI and ANALYZE image](https://de.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-analyze-image) is required. 
 
-An R session including [caret](https://CRAN.R-project.org/package=caret), [jsonlite](https://CRAN.R-project.org/package=jsonlite) and [stepPlr](https://CRAN.R-project.org/package=stepPlr) are required. Please refer to ![Session Info](session_info.txt). 
+An R session including [caret](https://CRAN.R-project.org/package=caret), [jsonlite](https://CRAN.R-project.org/package=jsonlite) and [stepPlr](https://CRAN.R-project.org/package=stepPlr) are required. Please refer to [Session Info](session_info.txt). 
 
 
 ## Description of scripts
