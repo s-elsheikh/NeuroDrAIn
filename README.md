@@ -1,5 +1,5 @@
-# NeuroDrAin
-**NeuroDrAin** is an end-to-end AI-based pipeline for evaluating CT scans following minimally invasive surgery for acute intracerebral hemorrhage (ICH). The pipeline automates ICH volumetry, quantifies drainage coverage by the ICH, and classifies the drain tip position as 'correct' or 'not correct'.
+# NeuroDrAIn
+**NeuroDrAIn** is an end-to-end AI-based pipeline for evaluating CT scans following minimally invasive surgery for acute intracerebral hemorrhage (ICH). The pipeline automates ICH volumetry, quantifies drainage coverage by the ICH, and classifies the drain tip position as 'correct' or 'not correct'.
 
 Post-surgery follow-up CT scans for ICH are typically used to assess the volume of hemorrhage and evaluate the drain tip position. Manual volumetry can be time-consuming, and the ABC/2 method is often prone to inaccuracies.
 
