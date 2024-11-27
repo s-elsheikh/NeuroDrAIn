@@ -1,5 +1,5 @@
 # List of packages to check and install if necessary
-packages <- c("caret", "reshape2", "stepPlr")
+packages <- c("caret", "reshape2", "stepPlr", "jsonlite")
 
 # Check if each package is installed, and install it if not
 for (pkg in packages) {
