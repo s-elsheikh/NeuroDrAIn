@@ -1,6 +1,6 @@
 import patchwork
 
-model_patchwork.json"
+model = "model_patchwork.json"
 input_contrast = "data/s_002.nii"
 out = "data/pred_drain_icb.nii.gz"
 

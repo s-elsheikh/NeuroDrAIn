@@ -18,6 +18,10 @@ The pipeline requires Python, MATLAB, and R programming languages. Creating the 
 conda env create -f environment.yml
 conda activate NeuroDrAIn
 ```
+
+This will install patchwork cnn toolbox including necessary dependancies and a minimum R installation, to allow running the scripts. 
+
+
 ## Description of scripts
 ### segment.py:
 1. Expects a non-contrast CT scan in NIfTI format, located in the `data/` folder. 
@@ -70,7 +74,7 @@ The R script expects a folder path containing all `profile_counter.json` files. 
 #### Usage
 
 ```
-Rscript --vanilla predict_position.R ./data
+Rscript --vanilla predict_position.R data
 ```
 --------------------------------------------------------------------------------------------------------------
 
