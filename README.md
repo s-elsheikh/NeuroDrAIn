@@ -12,7 +12,7 @@ This repository includes all necessary files from the [segment_ich](https://gith
 
 ## Environment Setup
 
-The pipeline requires Python, MATLAB, and R programming languages. Python can be setup using: 
+The pipeline requires Python, MATLAB, and R programming languages. The python environment can be setup using: 
 
 ```
 conda env create -f environment.yml
