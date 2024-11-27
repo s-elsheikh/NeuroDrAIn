@@ -1,4 +1,4 @@
-name: NEuroDrAIn2
+name: NEuroDrAIn
 channels:
   - conda-forge
   - defaults
