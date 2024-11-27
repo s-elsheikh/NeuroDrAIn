@@ -12,14 +12,18 @@ This repository includes all necessary files from the [segment_ich](https://gith
 
 ## Environment Setup
 
-The pipeline requires Python, MATLAB, and R programming languages. Creating the environment using the supplied environment file installs all necessary dependencies, except for MATLAB, which requires a separate license. The pipline was tested with MATLAB R2021a.
+The pipeline requires Python, MATLAB, and R programming languages. Python can be setup using: 
 
 ```
 conda env create -f environment.yml
 conda activate NeuroDrAIn
 ```
 
-This will install patchwork cnn toolbox including necessary dependancies and a minimum R installation, to allow running the scripts. 
+This will install [Patchwork CNN Toolbox](https://bitbucket.org/reisert/patchwork/src/master/) including necessary dependancies. 
+
+A MATLAB installation including [Tools for NIfTI and ANALYZE image](https://de.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-analyze-image) is required. 
+
+An R session including [caret](https://CRAN.R-project.org/package=caret), [jsonlite](https://CRAN.R-project.org/package=jsonlite) and [stepPlr](https://CRAN.R-project.org/package=stepPlr) are required. Please refer to ![Session Info](session_info.txt). 
 
 
 ## Description of scripts
