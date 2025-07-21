@@ -5,7 +5,7 @@ Post-surgery follow-up CT scans for ICH are typically used to assess the volume 
 
 We previously developed a CNN-based model for segmenting ICH and drain structures [Accuracy of automated segmentation and volumetry of acute intracerebral hemorrhage following minimally invasive surgery using a patch‑based convolutional neural network in a small dataset](https://rdcu.be/dyUGM) ([segment_ich](https://github.com/s-elsheikh/segment_ich/)). 
 
-We describe a MATLAB script, that quantifies the coverage profile of ICH and drain segmentations. Additionally, a machine learning algorithm uses this coverage profile to classify the drain tip position as "correct" or "incorrect." (under review). 
+We describe a MATLAB script, that quantifies the coverage profile of ICH and drain segmentations. Additionally, a machine learning algorithm uses this coverage profile to classify the drain tip position as "correct" or "incorrect.". We describe the development and validation steps in detail in [Machine learning-based pipeline for automated intracerebral hemorrhage and drain detection, quantification, and classification in non-enhanced CT images (NeuroDrAIn)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0316003). 
 
 This repository includes all necessary files from the [segment_ich](https://github.com/s-elsheikh/segment_ich/) repository to run the complete pipeline.
 
